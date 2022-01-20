@@ -6,12 +6,13 @@ Board https://letyshops.com/r/aliexpress-12bee6e891b8
 Change in code:
 
 1. WiFi setting
-
+```
 const char* ssid     = "<YOUR_SSID>";
 const char* password = "<SSID_PWD>";
+```
 
 2. API KEY from https://etherscan.io/
-
-// url settings
+```
 const char* url = "https://api.etherscan.io/api?module=stats&action=ethprice&apikey=<API_KEY>";
 const char* url_gwei = "https://api.etherscan.io/api?module=gastracker&action=gasoracle&apikey=<API_KEY>";
+```
